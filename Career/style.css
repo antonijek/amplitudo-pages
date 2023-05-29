@@ -8,6 +8,10 @@ html,
 body {
   overflow-x: hidden;
 }
+body {
+  margin: 0;
+  padding: 0;
+}
 @font-face {
   font-family: "Gilroy-Medium";
   src: url("../fonts/Gilroy-Medium.woff");
@@ -208,7 +212,6 @@ body {
 }
 .contact__form {
   background-color: #e6e6e6;
-
   display: flex;
   justify-content: center;
   width: 100vw;
@@ -325,11 +328,11 @@ textarea::placeholder {
     width: 100%;
   }
   .contact__map {
-    width: 32vw;
+    width: 33.3vw;
     height: 30vw;
   }
   .adress {
-    width: 33vw;
+    width: 33.3vw;
     height: 30vw;
   }
   .social-images {
@@ -338,7 +341,7 @@ textarea::placeholder {
   .contact__form {
     background-color: #e6e6e6;
     padding: 5%;
-    width: 33vw;
+    width: 33.3vw;
     height: 30vw;
   }
   .adress__title {
